@@ -1,3 +1,12 @@
+<template>
+  <div class="container-fluid">
+    <div class="app">
+      <router-view name="main"></router-view>
+      <router-view name="footer"></router-view>
+    </div>
+  </div>
+</template>
+
 <script>
 export default {
   name: "app"
@@ -10,7 +19,7 @@ export default {
 
 // main css
 body {
-  background-color: #1071c5;
+  background-color: #646464;
   //background-color: #0071c5;
   line-height: 1;
 }
